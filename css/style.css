@@ -1,0 +1,292 @@
+html,
+body,
+.viewport {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+}
+
+#title-img {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#title-container {
+	width: 550px;
+	margin: 0 auto;
+	position: relative;
+	top: 35%;
+}
+
+#title {
+	margin: 0;
+	font-size: 56px;
+	letter-spacing: 5px;
+	font-weight: normal;
+}
+
+.parallax-text {
+	background-color: white;
+	color: black;
+	opacity: 0.5;
+}
+
+#subtitle {
+	margin: 0;
+	font-size: 24px;
+	letter-spacing: 5px;
+	font-weight: normal;
+	color: white;
+	position: relative;
+	top: 45%;
+}
+
+#scroll-down-div {
+	color: white;
+	width: 200px;
+	height: 100px;
+	position: relative;
+	position: absolute;
+	bottom: -3%;
+	left: 50%;
+	margin-left: -100px;
+}
+
+#scroll-down-text {
+	font-size: 14px;
+}
+
+#scroll-down-icon {
+	position: relative;
+	top: 10px;
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+.nav-btm {
+	border-bottom: 1px solid #ddd;
+}
+
+.active {
+	border-bottom: 2px solid rgb(51, 51, 51);
+}
+
+.dark-text {
+	color: black;
+}
+
+.light-text {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: rgba(0, 0, 0, 0.9);
+}
+
+#navbar {
+	transition: background-color 0.1s;
+}
+
+.card {
+	border: none;
+	transition: box-shadow 0.2s ease;
+	box-shadow: -5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+}
+
+.card:hover {
+	box-shadow: -2px 2px 15px 0px rgba(46, 61, 73, 0.2);
+}
+
+#card-container {
+	padding-left: 7%;
+}
+
+#my-card {
+	width: 256px;
+	margin: auto;
+	margin-top: -50px;
+}
+
+.project-card {
+	width: 224px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+#my-pic {
+	border-top-right-radius: .25rem;
+	border-top-left-radius: .25rem;
+	width: 256px;
+	height: 256px;
+}
+
+#project-pic {
+	border-top-right-radius: .25rem;
+	border-top-left-radius: .25rem;
+	width: 224px;
+	height: 156px;
+}
+
+.card-title {
+	font-size: 18px;
+}
+
+.card-text {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.container {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.fa-github {
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.btn {
+	color: white;
+	background-color: #343a40;
+	border: 1px solid #333333;
+}
+
+.btn:hover {
+	color: black;
+	border: 1px solid #ccc;
+	background-color: #e2e6ea;
+}
+
+.contact-card {
+	width: 100%;
+	margin-top: 25px;
+	text-align: center;
+	background-color: #4d6a88;
+	border: 1px solid #6c7175;
+	color: white;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.contact-card:not(#message-card):hover {
+	color: black;
+	border: 1px solid #ccc;
+	background-color: #e2e6ea;
+}
+
+.contact-card-title {
+	font-size: 22px;
+}
+
+.contact-card-text {
+	font-size: 16px;
+}
+
+#message-card {
+	margin-top: 40px;
+}
+
+#form {
+	text-align: left;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+	color: white;
+	background: transparent;
+	border-bottom: 1px solid white;
+}
+
+input:focus {
+	outline: none;
+}
+
+#message-box {
+	width: 100%;
+	height: 100px;
+	border: none;
+	border-radius: 0.15rem;
+	margin-bottom: 10px;
+}
+
+#send-message-btn {
+	float: right;
+}
+
+.fa-chevron-right {
+	margin-left: 5px;
+}
+
+.footer {
+	color: rgba(0, 0, 0, 0.9);
+	background-color: #f8f9fa;
+	border-top: 1px solid #ddd;
+	text-align: center;
+	height: 60px;
+	padding: 1rem;
+	font-size: 20px;
+}
+
+.alert {
+	display: none;
+}
+
+
+@media (max-width: 1199.5px) {
+	#my-card {
+		margin-top: -45px;
+	}
+}
+
+@media (max-width: 991.5px) {
+	#my-card {
+		margin-top: 25px;
+	}
+}
+
+
+@media (max-width: 575px) {
+	#title-container {
+		width: 375px;
+	}
+	#title {
+		font-size: 48px;
+	}
+	#subtitle {
+		font-size: 18px;
+	}
+
+}
+
+@media (max-width: 400px) {
+	#title-container {
+		width: 275px;
+	}
+	#title {
+		font-size: 46px;
+	}
+	#subtitle {
+		font-size: 16px;
+		line-height: 30px;
+	}
+}
+
+@media (max-height: 500px) {
+	#title-container {
+		top: 20%;
+	}
+	#subtitle {
+		top: 35%;
+	}
+}
